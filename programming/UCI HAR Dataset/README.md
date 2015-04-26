@@ -1,7 +1,4 @@
----
-title: "Course Project"
-output: html_document
----
+
 
 The program run_analysis.R implements the course project for the "Getting and Cleaning data" Coursera lecture by Jeff Leek, Roger D. Peng, and Brian Caffo on Coursera.
 
