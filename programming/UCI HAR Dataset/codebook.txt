@@ -1,0 +1,365 @@
+Codebook for the variables in the data set tidy_means.txt created by the run_analysis.R script.
+
+This data is processed from the original data described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw time dependent signals. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing coresponding frequency domain signals.
+
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+List of variables in the data file:
+
+ [1] "activity"  
+
+Type of activity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+ [2] "subject"    
+
+Number identifying the person for this activity record.
+
+ [3] "Mean.time.BodyAcceleration.mean.X"    
+
+Average of the mean linear acceleration along the X axis of the subject body for each measurement
+
+ [4] "Mean.time.BodyAcceleration.mean.Y"        
+
+Average of the mean linear acceleration along the Y axis of the subject body for each measurement
+
+ [5] "Mean.time.BodyAcceleration.mean.Z"    
+
+Average of the mean linear acceleration along the Z axis of the subject body for each measurement
+
+ [6] "Mean.time.BodyAcceleration.std.X"  
+
+Average of the standard deviation for each measurement of the linear acceleration along the X axis of the subject body 
+
+ [7] "Mean.time.BodyAcceleration.std.Y"      
+
+Average of the standard deviation for each measurement of the linear acceleration along the Y axis of the subject body 
+
+ [8] "Mean.time.BodyAcceleration.std.Z"  
+
+Average of the standard deviation for each measurement of the linear acceleration along the Z axis of the subject body 
+
+ [9] "Mean.time.GravityAcceleration.mean.X"         
+
+Average of the mean for each measurement of the linear gravity acceleration along the X axis
+
+[10] "Mean.time.GravityAcceleration.mean.Y"       
+
+Average of the mean for each measurement of the linear gravity acceleration along the Y axis
+
+[11] "Mean.time.GravityAcceleration.mean.Z"    
+
+Average of the mean for each measurement of the linear gravity acceleration along the Z axis
+
+[12] "Mean.time.GravityAcceleration.std.X"         
+
+Average of the standard deviation for each measurement of the linear gravity acceleration along the X axis
+
+[13] "Mean.time.GravityAcceleration.std.Y"     
+
+Average of the standard deviation for each measurement of the linear gravity acceleration along the Y axis
+
+[14] "Mean.time.GravityAcceleration.std.Z"   
+
+Average of the standard deviation for each measurement of the linear gravity acceleration along the Z axis
+
+[15] "Mean.time.BodyAccelerationJerk.mean.X"     
+
+Average of the mean for each measurement of the linear acceleration derivative of the subject body along the X axis
+
+[16] "Mean.time.BodyAccelerationJerk.mean.Y"             
+
+Average of the mean for each measurement of the linear acceleration derivative of the subject body along the Y axis
+
+[17] "Mean.time.BodyAccelerationJerk.mean.Z"   
+
+Average of the mean for each measurement of the linear acceleration derivative of the subject body along the Z axis
+
+[18] "Mean.time.BodyAccelerationJerk.std.X"    
+
+Average of the standard deviation for each measurement of the linear acceleration derivative of the subject body along the X axis
+
+[19] "Mean.time.BodyAccelerationJerk.std.Y"  
+
+Average of the standard deviation for each measurement of the linear acceleration derivative of the subject body along the Y axis
+
+[20] "Mean.time.BodyAccelerationJerk.std.Z"   
+
+Average of the standard deviation for each measurement of the linear acceleration derivative of the subject body along the Z axis
+
+[21] "Mean.time.BodyGyro.mean.X"  
+
+Average of the mean for each measurement of the angular acceleration of the subject body along the X axis
+
+[22] "Mean.time.BodyGyro.mean.Y"   
+
+Average of the mean for each measurement of the angular acceleration of the subject body along the Y axis
+
+[23] "Mean.time.BodyGyro.mean.Z"     
+
+Average of the mean for each measurement of the angular acceleration of the subject body along the Z axis
+
+[24] "Mean.time.BodyGyro.std.X"     
+
+Average of the standard deviation for each measurement of the angular acceleration of the subject body along the X axis
+
+[25] "Mean.time.BodyGyro.std.Y"                             
+
+Average of the standard deviation for each measurement of the angular acceleration of the subject body along the Y axis
+
+[26] "Mean.time.BodyGyro.std.Z" 
+
+Average of the standard deviation for each measurement of the angular acceleration of the subject body along the Z axis
+
+[27] "Mean.time.BodyGyroJerk.mean.X"   
+
+Average of the mean for each measurement of the derivative of the angular acceleration of the subject body along the X axis
+
+[28] "Mean.time.BodyGyroJerk.mean.Y"   
+
+Average of the mean for each measurement of the derivative of the angular acceleration of the subject body along the Y axis
+
+[29] "Mean.time.BodyGyroJerk.mean.Z"  
+
+Average of the mean for each measurement of the derivative of the angular acceleration of the subject body along the Z axis
+
+[30] "Mean.time.BodyGyroJerk.std.X"   
+
+Average of the standard deviation for each measurement of the derivative of the angular acceleration of the subject body along the X axis
+
+[31] "Mean.time.BodyGyroJerk.std.Y"         
+
+Average of the standard deviation for each measurement of the derivative of the angular acceleration of the subject body along the Y axis
+
+[32] "Mean.time.BodyGyroJerk.std.Z"  
+
+Average of the standard deviation for each measurement of the derivative of the angular acceleration of the subject body along the Z axis
+
+[33] "Mean.time.BodyAccelerationMagnitude.mean"      
+
+Average of the mean for each measurement of the magnitude of the linear body acceleration of the subject body 
+
+[34] "Mean.time.BodyAccelerationMagnitude.std"  
+
+Average of the standard deviation for each measurement of the magnitude of the linear body acceleration of the subject body 
+
+[35] "Mean.time.GravityAccelerationMagnitude.mean"   
+
+Average of the mean for each measurement of the magnitude of the gravity acceleration 
+
+[36] "Mean.time.GravityAccelerationMagnitude.std"  
+
+Average of the standard deviation for each measurement of the magnitude of the gravity acceleration 
+
+[37] "Mean.time.BodyAccelerationJerkMagnitude.mean"         
+
+Average of the mean for each measurement of the derivative of the body acceleration magnitude
+
+[38] "Mean.time.BodyAccelerationJerkMagnitude.std"     
+
+Average of the standard deviation for each measurement of the derivative of the body acceleration magnitude
+
+[39] "Mean.time.BodyGyroMagnitude.mean"  
+
+Average of the mean for each measurement of the of the body angular acceleration magnitude
+
+[40] "Mean.time.BodyGyroMagnitude.std"  
+
+Average of the standard deviation for each measurement of the of the body angular acceleration magnitude
+
+[41] "Mean.time.BodyGyroJerkMagnitude.mean"    
+
+Average of the mean for each measurement of the of the body angular acceleration derivative magnitude
+
+[42] "Mean.time.BodyGyroJerkMagnitude.std"    
+
+Average of the standard deviation for each measurement of the of the body angular acceleration derivative magnitude
+
+[43] "Mean.freq.BodyAcceleration.mean.X"         
+
+Equivalent to variable [3] in the frequency domain
+
+[44] "Mean.freq.BodyAcceleration.mean.Y"    
+
+Equivalent to variable [4] in the frequency domain
+
+[45] "Mean.freq.BodyAcceleration.mean.Z"  
+
+Equivalent to variable [5] in the frequency domain
+
+[46] "Mean.freq.BodyAcceleration.std.X"       
+
+Equivalent to variable [6] in the frequency domain
+
+[47] "Mean.freq.BodyAcceleration.std.Y"      
+
+Equivalent to variable [7] in the frequency domain
+
+[48] "Mean.freq.BodyAcceleration.std.Z"      
+
+Equivalent to variable [8] in the frequency domain
+
+[49] "Mean.freq.BodyAcceleration.meanFreq.X"  
+
+Equivalent to variable [9] in the frequency domain
+
+[50] "Mean.freq.BodyAcceleration.meanFreq.Y"  
+
+Equivalent to variable [10] in the frequency domain
+
+[51] "Mean.freq.BodyAcceleration.meanFreq.Z"   
+
+Equivalent to variable [11] in the frequency domain
+
+[52] "Mean.freq.BodyAccelerationJerk.mean.X"     
+
+Equivalent to variable [12] in the frequency domain
+
+[53] "Mean.freq.BodyAccelerationJerk.mean.Y"  
+
+Equivalent to variable [13] in the frequency domain
+
+[54] "Mean.freq.BodyAccelerationJerk.mean.Z"  
+
+Equivalent to variable [14] in the frequency domain
+
+[55] "Mean.freq.BodyAccelerationJerk.std.X"          
+
+Equivalent to variable [15] in the frequency domain
+
+[56] "Mean.freq.BodyAccelerationJerk.std.Y"   
+
+Equivalent to variable [16] in the frequency domain
+
+[57] "Mean.freq.BodyAccelerationJerk.std.Z"          
+
+Equivalent to variable [17] in the frequency domain
+
+[58] "Mean.freq.BodyAccelerationJerk.meanFreq.X"   
+
+Equivalent to variable [18] in the frequency domain
+
+[59] "Mean.freq.BodyAccelerationJerk.meanFreq.Y"       
+
+Equivalent to variable [19] in the frequency domain
+
+[60] "Mean.freq.BodyAccelerationJerk.meanFreq.Z"   
+
+Equivalent to variable [20] in the frequency domain
+
+[61] "Mean.freq.BodyGyro.mean.X"   
+
+Equivalent to variable [21] in the frequency domain
+
+[62] "Mean.freq.BodyGyro.mean.Y"    
+
+Equivalent to variable [22] in the frequency domain
+
+[63] "Mean.freq.BodyGyro.mean.Z"     
+
+Equivalent to variable [23] in the frequency domain
+
+[64] "Mean.freq.BodyGyro.std.X"        
+
+Equivalent to variable [24] in the frequency domain
+
+[65] "Mean.freq.BodyGyro.std.Y"    
+
+Equivalent to variable [25] in the frequency domain
+
+[66] "Mean.freq.BodyGyro.std.Z"   
+
+Equivalent to variable [26] in the frequency domain
+
+[67] "Mean.freq.BodyGyro.meanFreq.X"     
+
+Equivalent to variable [27] in the frequency domain
+
+[68] "Mean.freq.BodyGyro.meanFreq.Y"           
+
+Equivalent to variable [28] in the frequency domain
+
+[69] "Mean.freq.BodyGyro.meanFreq.Z"   
+
+Equivalent to variable [29] in the frequency domain
+
+[70] "Mean.freq.BodyAccelerationMagnitude.mean"    
+
+Equivalent to variable [30] in the frequency domain
+
+[71] "Mean.freq.BodyAccelerationMagnitude.std"     
+
+Equivalent to variable [31] in the frequency domain
+
+[72] "Mean.freq.BodyAccelerationMagnitude.meanFreq"    
+
+Equivalent to variable [32] in the frequency domain
+
+[73] "Mean.freq.BodyBodyAccelerationJerkMagnitude.mean"    
+
+Equivalent to variable [33] in the frequency domain
+
+[74] "Mean.freq.BodyBodyAccelerationJerkMagnitude.std"   
+
+Equivalent to variable [34] in the frequency domain
+
+[75] "Mean.freq.BodyBodyAccelerationJerkMagnitude.meanFreq" 
+
+Equivalent to variable [35] in the frequency domain
+
+[76] "Mean.freq.BodyBodyGyroMagnitude.mean"      
+
+Equivalent to variable [36] in the frequency domain
+
+[77] "Mean.freq.BodyBodyGyroMagnitude.std"        
+
+Equivalent to variable [37] in the frequency domain
+
+[78] "Mean.freq.BodyBodyGyroMagnitude.meanFreq"       
+
+Equivalent to variable [38] in the frequency domain
+
+[79] "Mean.freq.BodyBodyGyroJerkMagnitude.mean"   
+
+Equivalent to variable [39] in the frequency domain
+
+[80] "Mean.freq.BodyBodyGyroJerkMagnitude.std"              
+
+Equivalent to variable [40] in the frequency domain
+
+[81] "Mean.freq.BodyBodyGyroJerkMagnitude.meanFreq"  
+
+Equivalent to variable [41] in the frequency domain
+
+[82] "Mean.angle(time.BodyAccelerationMean,gravity)"   
+
+Average angle between the subject's mean body acceleration during a measurement and the gravity direction
+
+[83] "Mean.angle(time.BodyAccelerationJerkMean,gravityMean)"
+
+Average angle between the subject's mean derivative of body acceleration during a measurement and the mean gravity direction
+
+[84] "Mean.angle(time.BodyGyroMean,gravityMean)"     
+
+Average angle between the subject's mean of body angular acceleration during a measurement and the mean gravity direction
+
+[85] "Mean.angle(time.BodyGyroJerkMean,gravityMean)"       
+
+Average angle between the subject's mean derivative of body acceleration during a measurement and the mean gravity direction
+
+[86] "Mean.angle(X,gravityMean)"     
+
+Average angle between the X axis and the average gravity
+
+[87] "Mean.angle(Y,gravityMean)"             
+
+Average angle between the Y axis and the average gravity
+
+[88] "Mean.angle(Z,gravityMean)" 
+
+Average angle between the Z axis and the average gravity
